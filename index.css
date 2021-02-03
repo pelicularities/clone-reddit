@@ -2,7 +2,34 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 body {
+  background-color: #dae0e6;
   font-family: "IBM Plex Sans", sans-serif;
+  margin: 0px;
+}
+
+nav,
+article,
+div {
+  background-color: #ffffff;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  height: 48px;
+  display: flex;
+  border-bottom: 1px solid #edeff1;
+}
+
+.spacer {
+  background-color: #dae0e6;
+  height: 48px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
 
 .button-container {
