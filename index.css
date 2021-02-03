@@ -214,6 +214,27 @@ section.sidebar > div {
   margin-bottom: 1rem;
 }
 
+.card-sidebar {
+  border-radius: 5px;
+}
+
+.card-sidebar h3 {
+  font-weight: 500;
+}
+
+.sidebar-photo-header {
+  background-color: #0079d3;
+  color: #ffffff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.sidebar-w-100 {
+  padding: 1rem;
+  width: calc(310 - 1rem);
+  display: flex;
+  justify-content: space-between;
+}
+
 /* CREATE POST */
 .create-post {
   display: flex;
@@ -270,4 +291,16 @@ button {
 /* UTILITIES */
 .flex-grow-1 {
   flex-grow: 1;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #edeff1;
+}
+
+.rounded-top {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.rounded-bottom {
+  border-radius: 0px 0px 5px 5px;
 }
