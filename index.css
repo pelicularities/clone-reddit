@@ -60,7 +60,11 @@ nav {
 }
 
 .px32 {
-  font-size: 1rem;
+  display: inline-block;
+  height: 32px;
+  font-size: 2rem;
+  color: rgba(255, 68, 0, 1);
+  margin: auto 0.5rem;
 }
 
 .px42 {
@@ -216,23 +220,37 @@ section.sidebar > div {
 
 .card-sidebar {
   border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
 }
 
-.card-sidebar h3 {
-  font-weight: 500;
+.sidebar-w-100 {
+  padding: 0.5rem 1rem;
+  width: calc(310 - 1rem);
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar-photo-header {
   background-color: #0079d3;
   color: #ffffff;
   border-radius: 5px 5px 0px 0px;
+  height: 4rem;
+  display: flex;
+  align-items: flex-end;
 }
 
-.sidebar-w-100 {
-  padding: 1rem;
-  width: calc(310 - 1rem);
-  display: flex;
-  justify-content: space-between;
+.sidebar-photo-header h4 {
+  font-weight: 400;
+  margin: 0px;
+}
+
+
+/* SIDEBAR: COMMUNITY LISTS */
+.community-rank, .community-name {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 /* CREATE POST */
@@ -288,6 +306,14 @@ button {
   color: rgba(0, 121, 211, 1);
 }
 
+.btn-pill {
+  background-color: #f6f7f8;
+  color: rgba(0, 121, 211, 1);
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+}
+
 /* UTILITIES */
 .flex-grow-1 {
   flex-grow: 1;
@@ -303,4 +329,12 @@ button {
 
 .rounded-bottom {
   border-radius: 0px 0px 5px 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
 }
