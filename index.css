@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.button-container {
+  width: 106px;
+}
+
+.button-container-large {
+  width: 286px;
+}
+
+button {
+  padding: 0.5rem;
+  border: 0px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: rgba(0, 121, 211, 1);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: rgba(255, 68, 0, 1);
+  color: #ffffff;
+}
+
+.btn-primary-outline {
+  border: 1px solid rgba(0, 121, 211, 1);
+  background-color: #ffffff;
+  color: rgba(0, 121, 211, 1);
+}
