@@ -16,6 +16,7 @@ div {
 /* LINKS */
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -179,6 +180,29 @@ h3.post-title {
 
 .card-content-footer {
   border-radius: 5px;
+  color: #888888;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-action-block {
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.footer-action-block > * {
+  margin: 0.1rem;
+  background-color: inherit;
+}
+
+.footer-action-block:hover {
+  background-color: #e7e7e7;
+  text-decoration: none;
 }
 
 /* SIDEBAR */
