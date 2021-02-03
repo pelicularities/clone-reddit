@@ -51,7 +51,7 @@ nav {
   height: 42px;
   font-size: 2.5rem;
   color: #dae0e6;
-  margin-right: 0.5rem; */
+  margin: 0.5rem; */
 }
 
 /* MAIN CONTENT SECTION */
@@ -73,10 +73,57 @@ main > article {
   margin-bottom: 1rem;
 }
 
+/* CARD */
+
 .card {
   border: 1px solid #cccccc;
   border-radius: 3px;
-  padding: 0.5rem;
+  display: flex;
+}
+
+.card-post {
+  height: 200px; /* testing purposes */
+}
+
+.card-left {
+  background-color: #f8f9fa;
+  width: 40px;
+  padding-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-left > .fa-arrow-down, .card-left > .fa-arrow-up {
+  color: #878a8c;
+  display: block;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 3px;
+}
+
+.card-left > .fa-arrow-up:hover, .card-left > .fa-arrow-down:hover {
+  cursor: pointer;
+  background-color: #e1e2e3;
+}
+
+.card-left > .fa-arrow-up:hover {
+  color: #cc3700;
+}
+
+
+.card-left > .fa-arrow-down:hover {
+  color: #5a75cc;
+}
+
+.card-left > .upvotes {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card-content {
+  flex-grow: 1;
 }
 
 /* SIDEBAR */
@@ -93,7 +140,6 @@ section.sidebar > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
 }
 
 /* FORM INPUTS */
