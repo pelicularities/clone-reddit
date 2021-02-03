@@ -42,7 +42,14 @@ nav {
   z-index: -1;
 }
 
-/* ICON CONTAINERS */
+/* ICONS */
+.px16 {
+  display: inline-block;
+  height: 16px;
+  font-size: 1rem;
+  color: #878a8c;
+}
+
 .px24 {
   display: inline-block;
   height: 24px;
@@ -86,17 +93,18 @@ main > article {
 
 .card {
   border: 1px solid #cccccc;
-  border-radius: 3px;
+  border-radius: 5px;
   display: flex;
 }
 
 .card-post {
-  
+  cursor: pointer;
 }
 
 /* CARD: LEFT BAR */
 
 .card-left {
+  border-radius: 5px;
   background-color: #f8f9fa;
   width: 40px;
   padding-top: 0.25rem;
@@ -136,11 +144,20 @@ main > article {
 /* CARD: CONTENT */
 
 .card-content {
+  border-radius: 5px;
   flex-grow: 1;
 }
 
 .card-content-header {
+  border-radius: 5px;
   padding: 0.5rem;
+  color: #888888;
+  font-weight: 300;
+}
+
+.post-subreddit {
+  font-weight: bold;
+  color: #000000;
 }
 
 .post-image {
@@ -150,9 +167,18 @@ main > article {
   margin: 0 auto;
 }
 
+.post-byline {
+  font-size: 0.8rem;
+}
+
 h3.post-title {
   font-weight: 500;
+  color: #000000;
   margin: 0.5rem 0 0 0;
+}
+
+.card-content-footer {
+  border-radius: 5px;
 }
 
 /* SIDEBAR */
