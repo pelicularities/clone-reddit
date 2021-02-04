@@ -14,26 +14,6 @@
   </head>
   <body>
     <nav>
-      <!--
-        some notes:
-        it's a flexbox
-        from left to right:
-        - reddit logo
-        - reddit banner
-        - navigation dropdown
-        - search box (flex-grow: 1, it's the only thing that changes size)
-        - icons for:
-          - popular
-          - all
-          - reddit live
-        - vertical bar
-        - icons for 
-          - chat
-          - notifications
-          - create post
-        - free coins button
-        - user dropdown
-      -->
       <i class="fab fa-reddit px32 red ml-3"></i>
       <h2 class="reddit-header">reddit</h2>
       <button class="dropdown dropdown-home">
@@ -75,13 +55,33 @@
     <div class="spacer"></div>
     <div class="container">
       <main>
-        <div class="card create-post">
+        <div class="card card-function justify-content-between">
           <i class="fab fa-reddit px42 zircon"></i>
           <input class="flex-grow-1" type="text" placeholder="Create Post" />
           <i class="fas fa-image px24 aluminum-gray"></i>
           <i class="fas fa-link px24 aluminum-gray"></i>
         </div>
-        <div class="card">Best Hot New Top</div>
+        <div class="card card-function justify-content-start">
+          <button class="btn btn-tab active">
+            <i class="fas fa-rocket px20"></i>
+            Best
+          </button>
+          <button class="btn btn-tab">
+            <i class="fas fa-burn px20"></i>
+            Hot
+          </button>
+          <button class="btn btn-tab">
+            <i class="fas fa-certificate px20"></i>
+            New
+          </button>
+          <button class="btn btn-tab">
+            <i class="fas fa-chart-bar px20"></i>
+            Top
+          </button>
+          <button class="btn btn-tab">
+            <i class="fas fa-ellipsis-h px16 aluminum-gray"></i>
+          </button>
+        </div>
         <article class="card card-post">
           <div class="card-left">
             <i class="fas fa-arrow-up"></i>
@@ -218,7 +218,7 @@
           </div>
           <div class="sidebar-w-100 d-flex justify-content-between rounded-bottom"> 
             <div>
-              <button class="btn btn-pill">Top</button>
+              <button class="btn btn-pill">Finance and Business</button>
             </div>
             <div>
               <button class="btn btn-pill">Near You</button>

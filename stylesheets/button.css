@@ -7,7 +7,7 @@
   width: 286px;
 }
 
-button.btn {
+.btn {
   padding: 0.5rem;
   border: 0px;
   border-radius: 9999px;
@@ -40,6 +40,37 @@ button.btn {
   font-size: 0.75rem;
   font-weight: bold;
   padding: 0.25rem 0.5rem;
+}
+
+/* BUTTONS THAT WORK AS TABS */
+.btn-tab {
+  background-color: #ffffff;
+  color: #878a8c;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.btn-tab.active {
+  background-color: #f6f7f8;
+  color: rgba(0, 121, 211, 1);
+}
+
+.btn-tab > i.fas {
+  margin: 0 0.5rem 0 0;
+}
+
+.btn-tab > i.fas.fa-ellipsis-h {
+  margin: 0;
+}
+
+.btn-tab:hover {
+  background-color: #e5e6e7;
+  cursor: pointer;
 }
 
 /* FREE COINS! */

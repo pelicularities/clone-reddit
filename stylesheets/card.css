@@ -10,10 +10,9 @@
   cursor: pointer;
 }
 
-/* CREATE POST */
-.create-post {
+/* CARDS FOR SITE FUNCTIONS (e.g. create post, change views) */
+.card-function {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
