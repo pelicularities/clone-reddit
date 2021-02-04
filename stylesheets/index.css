@@ -60,6 +60,17 @@ input[type="text"] {
   padding: 0.5rem 1.2rem;
   background-color: #f6f7f8;
   border: 1px solid #edeff1;
-  border-radius: 3px;
+  border-radius: 5px;
   font-family: "IBM Plex Sans", sans-serif;
+}
+
+input[type="text"]:hover {
+  background-color: #ffffff;
+  border: 1px solid #0079d3;
+}
+
+input[type="text"]:focus {
+  background-color: #ffffff;
+  border: 1px solid #0079d3;
+  outline: none;
 }

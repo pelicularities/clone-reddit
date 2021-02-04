@@ -73,6 +73,10 @@
   cursor: pointer;
 }
 
+.btn-tab:focus {
+  outline: none;
+}
+
 /* FREE COINS! */
 #btn-free-coins {
   display: flex;

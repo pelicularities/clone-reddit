@@ -26,6 +26,37 @@ h2.reddit-header {
   font-weight: 500;
 }
 
+.search {
+  padding-left: 0.5rem;
+  background-color: #f6f7f8;
+  border: 1px solid #edeff1;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.search:hover {
+  background-color: #ffffff;
+  border: 1px solid #0079d3;
+}
+
+.search > input[type="text"] {
+  padding: 0.5rem 0px;
+  border: 0px;
+  margin-left: 0.5rem;
+}
+
+.search > input[type="text"]:hover {
+  background-color: inherit;
+  border: 0px;
+}
+
+.search > input[type="text"]:focus {
+  background-color: inherit;
+  border: 0px;
+  outline: none;
+}
+
 /* NAVBAR ICONS */
 
 .navbar-icon {
