@@ -1,0 +1,43 @@
+/* BUTTONS */
+.button-container {
+  width: 106px;
+}
+
+.button-container-large {
+  width: 286px;
+}
+
+button.btn {
+  padding: 0.5rem;
+  border: 0px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: rgba(0, 121, 211, 1);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: rgba(255, 68, 0, 1);
+  color: #ffffff;
+}
+
+.btn-primary-outline {
+  border: 1px solid rgba(0, 121, 211, 1);
+  background-color: #ffffff;
+  color: rgba(0, 121, 211, 1);
+}
+
+.btn-pill {
+  background-color: #f6f7f8;
+  color: rgba(0, 121, 211, 1);
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+}

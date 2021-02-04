@@ -1,0 +1,27 @@
+/* NAVBAR */
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #edeff1;
+  z-index: 1000;
+}
+
+.spacer {
+  background-color: #dae0e6;
+  height: 48px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+h2.reddit-header {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}

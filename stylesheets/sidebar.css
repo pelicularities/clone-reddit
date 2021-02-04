@@ -1,0 +1,55 @@
+/* SIDEBAR */
+section.sidebar {
+  width: 310px;
+}
+
+section.sidebar > div {
+  margin-bottom: 1rem;
+}
+
+.card-sidebar {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.sidebar-w-100 {
+  padding: 0.5rem 1rem;
+  width: calc(310 - 1rem);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-photo-header h4 {
+  font-weight: 400;
+  margin: 0px;
+}
+
+/* SIDEBAR: COMMUNITY LISTS */
+.community-rank,
+.community-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sidebar-photo-header {
+  background-image: url("https://styles.redditmedia.com/t5_2th52/styles/bannerBackgroundImage_b81p0rpipwd61.png");
+  background-position: center center;
+  color: #ffffff;
+  height: 4rem;
+  position: relative;
+}
+
+.opacity-fade {
+  border-radius: 5px 5px 0px 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0px, transparent);
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.5rem 1rem;
+  top: 0px;
+  left: 0px;
+  width: calc(100% - 2rem);
+  height: calc(100% - 1rem);
+}

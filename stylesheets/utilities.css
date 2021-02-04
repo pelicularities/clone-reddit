@@ -1,0 +1,28 @@
+/* UTILITIES */
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #edeff1;
+}
+
+.rounded-top {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.rounded-bottom {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
