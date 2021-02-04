@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 body {
   background-color: #dae0e6;
@@ -48,7 +48,7 @@ nav {
 }
 
 h2.reddit-header {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
 }
 
@@ -107,7 +107,7 @@ button.dropdown {
   height: 42px;
   font-size: 2.5rem;
   color: #dae0e6;
-  margin: 0.5rem; */
+  margin: 0.5rem;
 }
 
 /* MAIN CONTENT SECTION */
@@ -154,7 +154,8 @@ main > article {
   align-items: center;
 }
 
-.card-left > .fa-arrow-down, .card-left > .fa-arrow-up {
+.card-left > .fa-arrow-down,
+.card-left > .fa-arrow-up {
   color: #878a8c;
   display: block;
   font-size: 1rem;
@@ -162,7 +163,8 @@ main > article {
   border-radius: 3px;
 }
 
-.card-left > .fa-arrow-up:hover, .card-left > .fa-arrow-down:hover {
+.card-left > .fa-arrow-up:hover,
+.card-left > .fa-arrow-down:hover {
   cursor: pointer;
   background-color: #e1e2e3;
 }
@@ -170,7 +172,6 @@ main > article {
 .card-left > .fa-arrow-up:hover {
   color: #cc3700;
 }
-
 
 .card-left > .fa-arrow-down:hover {
   color: #5a75cc;
@@ -267,25 +268,37 @@ section.sidebar > div {
   align-items: center;
 }
 
-.sidebar-photo-header {
-  background-color: #0079d3;
-  color: #ffffff;
-  border-radius: 5px 5px 0px 0px;
-  height: 4rem;
-  display: flex;
-  align-items: flex-end;
-}
-
 .sidebar-photo-header h4 {
   font-weight: 400;
   margin: 0px;
 }
 
-
 /* SIDEBAR: COMMUNITY LISTS */
-.community-rank, .community-name {
+.community-rank,
+.community-name {
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.sidebar-photo-header {
+  background-image: url("https://styles.redditmedia.com/t5_2th52/styles/bannerBackgroundImage_b81p0rpipwd61.png");
+  background-position: center center;
+  color: #ffffff;
+  height: 4rem;
+  position: relative;
+}
+
+.opacity-fade {
+  border-radius: 5px 5px 0px 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0px, transparent);
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.5rem 1rem;
+  top: 0px;
+  left: 0px;
+  width: calc(100% - 2rem);
+  height: calc(100% - 1rem);
 }
 
 /* CREATE POST */
