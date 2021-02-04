@@ -6,6 +6,14 @@
   color: #878a8c;
 }
 
+.px20 {
+  display: inline-block;
+  height: 24px;
+  font-size: 1.25rem;
+  color: #878a8c;
+  margin: auto 0.5rem;
+}
+
 .px24 {
   display: inline-block;
   height: 24px;

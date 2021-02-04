@@ -11,6 +11,7 @@
 @import "./navbar.css";
 @import "./sidebar.css";
 @import "./utilities.css";
+@import "./colors.css";
 
 body {
   background-color: #dae0e6;
