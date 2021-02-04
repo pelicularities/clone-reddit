@@ -25,3 +25,20 @@ h2.reddit-header {
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
 }
+
+/* NAVBAR ICONS */
+
+.navbar-icon {
+  display: block;
+  height: 16px;
+  font-size: 1rem;
+  color: #000000;
+  margin: auto 0.25rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+.navbar-icon:hover {
+  background-color: #e7e8e8;
+  cursor: pointer;
+}
