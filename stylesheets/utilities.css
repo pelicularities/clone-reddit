@@ -44,6 +44,10 @@
   margin-left: 1rem;
 }
 
+.mr-r {
+  margin-right: 0.5rem;
+}
+
 .mx-2 {
   margin: auto 0.5rem;
 }
