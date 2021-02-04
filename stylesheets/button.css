@@ -18,6 +18,14 @@
   width: 100%;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
 .btn-primary {
   background-color: rgba(0, 121, 211, 1);
   color: #ffffff;
