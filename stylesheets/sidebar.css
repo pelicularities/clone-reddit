@@ -7,12 +7,6 @@ section.sidebar > div {
   margin-bottom: 1rem;
 }
 
-.card-sidebar {
-  border-radius: 5px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-}
-
 .sidebar-w-100 {
   padding: 0.5rem 1rem;
   width: calc(310 - 1rem);

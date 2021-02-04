@@ -119,3 +119,10 @@ h3.post-title {
   background-color: #e7e7e7;
   text-decoration: none;
 }
+
+/* CARD: SIDEBAR */
+.card-sidebar {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
