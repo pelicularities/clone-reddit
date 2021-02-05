@@ -79,3 +79,15 @@
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+@media (max-width: 1200px) {
+  .d-none-1200 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .d-none-1024 {
+    display: none;
+  }
+}

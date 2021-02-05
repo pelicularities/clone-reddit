@@ -48,3 +48,10 @@ button.dropdown:hover {
 .dropdown-username > .dropdown-karma {
   color: #a8aaab;
 }
+
+@media (max-width: 1024px) {
+  .dropdown-home,
+  .dropdown-user {
+    width: auto;
+  }
+}
